@@ -3110,11 +3110,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hp\\source\\repos\\DapperDemo\\DapperDemo\\DapperDemo.csproj",
+      "projectUniqueName": "C:\\ASP.NET CORE Project\\DapperDemo\\DapperDemo\\DapperDemo.csproj",
       "projectName": "DapperDemo",
-      "projectPath": "C:\\Users\\hp\\source\\repos\\DapperDemo\\DapperDemo\\DapperDemo.csproj",
+      "projectPath": "C:\\ASP.NET CORE Project\\DapperDemo\\DapperDemo\\DapperDemo.csproj",
       "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hp\\source\\repos\\DapperDemo\\DapperDemo\\obj\\",
+      "outputPath": "C:\\ASP.NET CORE Project\\DapperDemo\\DapperDemo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",

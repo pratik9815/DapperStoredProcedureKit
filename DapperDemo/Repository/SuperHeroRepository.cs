@@ -12,11 +12,11 @@ namespace DapperDemo.Repository
             _db = db;
         }
 
-        public async Task<bool> AddAsync(SuperHero superHero)
+        public async Task<bool> AddAsync(CreateSuperHero superHero)
         {
             try
             {
-                await _db.SaveData("sp_create_superhero", new { superHero.Character_Name, superHero.Real_Name });
+                await _db.SaveData("sp_create_superhero", new { superHero.Character_Name, superHero.Real_Name, superHero.SuperHero_Description });
                 return true;
             }
             catch (Exception)       
@@ -42,7 +42,7 @@ namespace DapperDemo.Repository
         {
             try
             {
-                await _db.SaveData("sp_remove_superhero", new { Id = id });
+                await _db.SaveData("sp_remove_superhero", new { superhero_id = id });
                 return true;
             }
             catch(Exception)
